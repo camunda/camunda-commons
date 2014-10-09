@@ -6,6 +6,7 @@ camunda commons is a collection of shared libraries used by camunda open source 
 
 * [camunda commons logging][logging]
 * [camunda commons utils][utils]
+* [camunda commons testing][testing]
 
 ## Getting started
 
