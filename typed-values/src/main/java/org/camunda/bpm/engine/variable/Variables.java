@@ -138,6 +138,14 @@ public class Variables {
     }
   }
 
+  public static VariableMap putValue(String name, Object value) {
+    return createVariables().putValue(name, value);
+  }
+
+  public static VariableMap putValueTyped(String name, TypedValue value) {
+    return createVariables().putValueTyped(name, value);
+  }
+
   public static ObjectValueBuilder objectValue(Object value) {
     return new ObjectVariableBuilderImpl(value);
   }
