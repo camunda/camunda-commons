@@ -3,5 +3,3 @@ org.camunda.commons.testing.testcontainers.CamundaMariaDBContainerProvider
 org.camunda.commons.testing.testcontainers.CamundaMySqlContainerProvider
 org.camunda.commons.testing.testcontainers.CamundaCockroachDBContainerProvider
 org.camunda.commons.testing.testcontainers.CamundaMSSQLContainerProvider
-org.camunda.commons.testing.testcontainers.CamundaDb2ContainerProvider
-org.camunda.commons.testing.testcontainers.CamundaOracleContainerProvider

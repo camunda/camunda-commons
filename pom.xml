@@ -23,13 +23,6 @@
   <properties>
     <license.includeTransitiveDependencies>false</license.includeTransitiveDependencies>
     <additionalparam>-Xdoclint:none</additionalparam>
-    <version.testcontainers>1.15.1</version.testcontainers>
-    <version.postgresql>42.2.15</version.postgresql>
-    <version.mysql>8.0.23</version.mysql>
-    <version.mariadb>1.1.8</version.mariadb>
-    <version.sqlserver>8.2.2.jre8</version.sqlserver>
-    <version.db2>11.1.1.1</version.db2>
-    <version.oracle>18.3.0.0</version.oracle>
   </properties>
 
   <dependencyManagement>
@@ -69,72 +62,62 @@
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>testcontainers</artifactId>
-        <version>${version.testcontainers}</version>
+        <version>1.15.2</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>mysql</artifactId>
-        <version>${version.testcontainers}</version>
+        <version>1.15.2</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>mariadb</artifactId>
-        <version>${version.testcontainers}</version>
+        <version>1.15.2</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>postgresql</artifactId>
-        <version>${version.testcontainers}</version>
+        <version>1.15.2</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>oracle-xe</artifactId>
-        <version>${version.testcontainers}</version>
+        <version>1.15.2</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>mssqlserver</artifactId>
-        <version>${version.testcontainers}</version>
+        <version>1.15.2</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>db2</artifactId>
-        <version>${version.testcontainers}</version>
+        <version>1.15.2</version>
       </dependency>
       <dependency>
         <groupId>org.testcontainers</groupId>
         <artifactId>cockroachdb</artifactId>
-        <version>${version.testcontainers}</version>
+        <version>1.15.2</version>
       </dependency>
       <dependency>
         <groupId>org.postgresql</groupId>
         <artifactId>postgresql</artifactId>
-        <version>${version.postgresql}</version>
+        <version>42.2.15</version>
       </dependency>
       <dependency>
         <groupId>org.mariadb.jdbc</groupId>
         <artifactId>mariadb-java-client</artifactId>
-        <version>${version.mariadb}</version>
+        <version>1.1.8</version>
       </dependency>
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>${version.mysql}</version>
+        <version>8.0.23</version>
       </dependency>
       <dependency>
         <groupId>com.microsoft.sqlserver</groupId>
         <artifactId>mssql-jdbc</artifactId>
-        <version>${version.sqlserver}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.ibm.db2.jcc</groupId>
-        <artifactId>db2jcc4</artifactId>
-        <version>${version.db2}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.oracle.jdbc</groupId>
-        <artifactId>ojdbc8</artifactId>
-        <version>${version.oracle}</version>
+        <version>8.2.2.jre8</version>
       </dependency>
 
     </dependencies>
