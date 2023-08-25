@@ -23,7 +23,7 @@
   <properties>
     <license.includeTransitiveDependencies>false</license.includeTransitiveDependencies>
     <additionalparam>-Xdoclint:none</additionalparam>
-    <plugin.version.maven-bundle>5.1.1</plugin.version.maven-bundle>
+    <plugin.version.maven-bundle>4.1.0</plugin.version.maven-bundle>
     <version.java>11</version.java>
   </properties>
 

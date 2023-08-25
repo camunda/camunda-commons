@@ -41,7 +41,7 @@ public class EnsureUtil {
    *
    * @param objectName the name of the parameter
    * @param object the parameter value
-   * @param <T> type the expected type
+   * @param type the expected type
    * @return the parameter casted to the requested type
    * @throws IllegalArgumentException in case object cannot be casted to type
    */
